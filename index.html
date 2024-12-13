@@ -1,12 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversive Header Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0e2e3d; /* Dark blue background */
+            color: white;
+            padding: 10px 20px;
+        }
+        .header .logo {
+            display: flex;
+            align-items: center;
+        }
+        .header .logo img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .header .logo h1 {
+            font-size: 18px;
+            margin: 0;
+        }
+        .header .header-right {
+            display: flex;
+            align-items: center;
+        }
+        .header .header-right .search {
+            margin-right: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            padding: 5px 10px;
+            border: none;
+        }
+        .header .header-right .search input {
+            border: none;
+            outline: none;
+        }
+        .header .header-right .profile {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+        .header .header-right .profile img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .header .header-right .profile span {
+            color: white;
+        }
+    </style>
+</head>
 <body>
 
-<p>I am normal</p>
-<p style="color:red;">I am red</p>
-<p style="color:blue;">I am blue</p>
-<p style="font-size:50px;">I am big</p>
-<iframe width='100%' height='585px' src='https://smsmagic4.zohobookings.in/portal-embed#/smsmagic' frameborder='0' allowfullscreen='' > </iframe>
+<!-- Header Section -->
+<header class="header">
+    <div class="logo">
+        <img src="https://example.com/logo.png" alt="Conversive Logo">
+        <h1>Conversive</h1>
+    </div>
+    <div class="header-right">
+        <!-- Search Bar -->
+        <div class="search">
+            <input type="text" placeholder="Search by name or phone number...">
+        </div>
+        <!-- User Profile -->
+        <div class="profile">
+            <img src="https://example.com/user-profile.jpg" alt="User Profile">
+            <span>Rohit Dake</span>
+        </div>
+    </div>
+</header>
+
 </body>
 </html>
-
